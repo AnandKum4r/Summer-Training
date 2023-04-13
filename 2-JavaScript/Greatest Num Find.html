@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function Greatest()
+		{
+			//alert("hii");
+			var Num1=document.getElementById("1st").value;
+			var Num2=document.getElementById("2nd").value;
+			if (Num1>=Num2)
+			{
+				document.getElementById("num").value=Num1;
+			}
+			else
+			{
+				document.getElementById("num").value=Num2;
+			}
+		}
+	</script>
+</head>
+<body>
+	Enter First Number :
+	<input type="text" id="1st" name=""><br><br>
+	Enter Second Number :
+	<input type="text" id="2nd" name=""><br><br>
+	<input type="button" value="Check" onclick="Greatest()" name=""><br><br>
+	Greatest Number is :
+	<input type="text" id="num" name=""><br><br>
+</body>
+</html>

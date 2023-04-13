@@ -1,0 +1,13 @@
+CSS JS Slider-
+1-make all process as firstproject
+2-make a home.html file in templates folder
+3-go to views.py and make a view function
+4-make new python file in myapp folder named myappurls
+5-go to myproject and then urls and edit it
+6-go to setting and import myapp
+7-make a new directory named static in myapp folder for css
+8-go to css folder now make a new file(file banana hai folder nhi) in css folder named style.css and style it
+9-now link style.css in home.html file
+10-now make a new diretcy in static folder file named images for slider and copy images and paste all imges here
+11-now make a new diretcy in static dictry file named js
+12-make script tag in home.html for slider and write code

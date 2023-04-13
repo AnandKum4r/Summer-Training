@@ -1,0 +1,10 @@
+Now create model
+1-go to myapp folder and then open models.py and create models
+2-go to myapp folder and then admin.py and import models
+   now run cmd given below
+     -python manage.py makemigrations myapp
+3-Now create super user by command - python manage.py createsuperuser
+    and enter username email password then superuser will be created successfully
+4-run again commd - python manage.py migrate
+5-now run server by cmd - python manage.py runserver
+   and then go to web page run localhost:8000 and then localhost:8000/admin and login page login and create user

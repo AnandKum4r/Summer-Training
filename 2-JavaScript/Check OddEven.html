@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function oddeven()
+		{
+			//alert("Hi");
+			var num=document.getElementById("tb").value;
+			if (num%2==0) 
+			{
+				alert("Number is Even ");
+			}
+			else
+			{
+				alert("Number is Odd ");
+			}
+		}
+	</script>
+</head>
+<body>
+	Enter a number :
+	<input type="text" id="tb" name=""><br><br>
+	<input type="button" value="Check" onclick="oddeven()" name="">
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anand</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        th, td {
+        padding: 10px;
+        text-align: center;
+        font-size:25px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>List of Students </h1>
+    <h1>Created By Anand Kumar</h1>
+    <h1><a href="{% url 'register' %}">New User</a></h1>
+</center>
+<hr>
+<table border="1" align="center">
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Contact No</th>
+        <th>Email Address</th>
+    </tr>
+    {% for u in users %}
+    <tr>
+        <td>{{u.name}}</td>
+        <td>{{u.address}}</td>
+        <td>{{u.contactno}}</td>
+        <td>{{u.emailaddress}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
+
+

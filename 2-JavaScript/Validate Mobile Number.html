@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function ch()
+		{
+			//alert("hii");
+			var pn=/^([7-9][0-9]{9})$/;
+			var number=document.getElementById("num").value;
+			if(!pn.test(number))
+			{
+				alert("Invalid Mobile Number !! Please enter a valid Mobile Number");
+			}
+			else
+			{
+				alert("Valid Mobile Number");
+			}
+		}
+	</script>
+</head>
+<body>
+	Enter Mobile Number(Indian) :
+	<input type="text" id="num" name=""><br><br>
+	<input type="button" value="Check" onclick="ch()" name="">	
+</body>
+</html>

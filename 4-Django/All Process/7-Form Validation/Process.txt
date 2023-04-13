@@ -1,0 +1,14 @@
+Form Validation -
+1-make all process as firstproject till urls.py
+2-go to myapp foler then add a new python file named forms.py and create your form
+3-go to views.py and import forms
+4-now go to regform.html and edit it
+5-add a login.html in templates and write code it it
+6-models me code likho
+7-now register in admin.py to models
+>>Now run Commands for models -
+1-python manage.py makemigrations myapp
+2-python manage.py migrate
+3-now create superuser by cmd- python manage.py createsuperuser
+>>
+7-go to views

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#slide
+		{
+			height: 500px;
+			width: 1000px;
+			border:1px solid red;
+			margin-top: 5px;
+			border-radius: 20px 20px 20px 20px ;
+		}
+	</style>
+	<script type="text/javascript">
+		var imgname=["backiee-118342.jpg","Flowers.jpg","KTM.jpg","Bike.jpg","backiee-124592.jpg"];
+        var i=0;
+        baseUrl="Images/";
+        function moveSlider(){
+         if(i==imgname.length)
+          {
+          i=0;
+          }
+          document.getElementById("slide").src=baseUrl+imgname[i];
+          i++;
+          window.setTimeout("moveSlider()",2000);
+        }
+	</script>
+</head>
+<body onload="moveSlider()">
+	<div id="imgSlider">
+        <img id="slide" width="100%" height="100%" />
+    </div>
+</body>
+</html>

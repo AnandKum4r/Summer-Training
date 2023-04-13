@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function v()
+		{
+			//alert("hi");
+			var pn=/^[a-zA-Z]{3,12}$/;
+			var name=document.getElementById("n").value;
+			if(!pn.test(name))
+			{
+				alert("Invalid Name !! Please enter a valid Name");
+			}
+			else
+			{
+				alert("Valid Name");
+			}
+		}
+	</script>
+</head>
+<body>
+Name 
+<input type="text" id="n" name=""><br><br>
+<input type="button" value="Pattern" onclick="v()" name="">
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Show/Hide div</title>
+    <style type="text/css">
+        #new
+        {
+            height: 400px;
+            width: 800px;
+            background-color:maroon;
+            margin-top: 25px;
+        }
+        h2
+        {
+            color:white;
+        }
+    </style>  
+    <script>  
+        function showhide() 
+        {  
+            var div = document.getElementById("new");  
+            if (div.style.display !== "none") 
+            {  
+                div.style.display = "none";  
+            }  
+            else 
+            {  
+                div.style.display = "block";  
+            }  
+        }  
+    </script>  
+</head>  
+<body>  
+    <div id="new">  
+        <h2> JavaScript is the programming language of HTML and the Web. <br />  
+            Programming makes computers do what you want them to do. <br />  
+            JavaScript is easy to learn.  
+        </h2>  
+    </div><br><br>
+    Click on the button to Show Or Hide Div :<br><br>
+    <input type="button" onclick="showhide()" value="Show/Hide" name="">
+</body>  
+</html>  

@@ -1,0 +1,4 @@
+Process to run page directly to webpage in table tag
+1-now go to templates and then in html file index.html and edit it
+2-now go to templates and then in views.py  and edit it
+3-now go to in index.html and traverse views.py

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function add()
+		{
+			//alert("hii");
+			var n1=document.getElementById("f").value;
+			var n2=document.getElementById("s").value;
+			var n3=document.getElementById("t").value;
+			var sum=Number(n1)+Number(n2)+Number(n3);
+			//alert("Sum = "+sum);	
+			document.getElementById("d").value=sum;
+		}
+	</script>
+</head>
+<body>
+	Enter First Number :
+	<input type="text" name="" id="f"><br><br>
+	Enter Second Number :
+	<input type="text" name="" id="s"><br><br>
+	Enter Third Number :
+	<input type="text" name="" id="t"><br><br>
+	<input type="button" value="Add" onclick="add()"><br><br>
+	Result :
+    <input type="text" id="d" name="" readonly="">
+</body>
+</html>

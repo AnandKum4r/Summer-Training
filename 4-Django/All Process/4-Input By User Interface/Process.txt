@@ -1,0 +1,10 @@
+Process to take input from users interface in webpage
+1-create link in index.html file and in href register a new html file named register
+2-go to views.py and create function of register
+3-now go to template and create new html file named register.html and create a form
+4-now go to myapp urls and then link register url 
+5-now runserver for check
+6-go to register.html and design your form use method for security and for encrption use {% cdrf_token %}
+7-now go to views.py and make function named save for save records aur upar redirect krdo
+8-now go to myappurls and entry urls in save
+9-now runserver and check

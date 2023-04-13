@@ -1,0 +1,36 @@
+Django Commands -
+
+md DjangoProject
+cd DjangoProject
+
+1- python -m pip install --upgrade pip
+
+2- python -m pip install virtualenvwrapper-win
+
+3- mkvirtualenv myappenv
+
+4- pip install django
+
+5- django-admin startproject myproject
+
+6- cd myproject
+
+7- python manage.py runserver
+
+8- localhost:8000
+
+> workon newenv
+> python manage.py runserver
+> CTRL C to close server
+> python manage.py startapp myapp - to create myapp
+> make new directory in myapp named templates click right
+=make all HTML file in templates folder
+>make a HTML file named index.html in templates
+>go to views.py in myapp file to create views with function
+>now add a python file named myappurls.py in myapp folder for URL
+=import url function
+=import views
+=now make a list named urlpatterns=[url(r'^$',views.Indexcall,name='index'),]
+>now go to myproject and then setting.py and scroll dowon to installed apps and then type myapp 
+>now go to myproject and then in urls.py and scroll down to import package of myappurls.py from myapp folder
+>now run project by python manage.py runserver
